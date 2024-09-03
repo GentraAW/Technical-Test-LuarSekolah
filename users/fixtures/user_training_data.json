@@ -1,0 +1,64 @@
+[
+    {
+        "model": "users.category",
+        "pk": 1,
+        "fields": {
+            "name": "Informasi Teknologi"
+        }
+    },
+    {
+        "model": "users.category",
+        "pk": 2,
+        "fields": {
+            "name": "Marketing"
+        }
+    },
+    {
+        "model": "users.training",
+        "pk": 1,
+        "fields": {
+            "title": "Dasar Logika Pemrograman",
+            "instructor": "Lin Sholihin",
+            "category": 1,
+            "price": "100.00"
+        }
+    },
+    {
+        "model": "users.training",
+        "pk": 2,
+        "fields": {
+            "title": "Mengenal SQL dalam Pemrograman",
+            "instructor": "Lin Sholihin",
+            "category": 1,
+            "price": "150.00"
+        }
+    },
+    {
+        "model": "users.training",
+        "pk": 3,
+        "fields": {
+            "title": "Strategi Meningkatkan Penjualan di Marketplace",
+            "instructor": "Trisa Marisa",
+            "category": 2,
+            "price": "200.00"
+        }
+    },
+    {
+        "model": "users.usertraining",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "training": 1,
+            "purchased_at": "2024-09-03T10:00:00Z"
+        }
+    },
+    {
+        "model": "users.usertraining",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "training": 2,
+            "purchased_at": "2024-09-03T10:30:00Z"
+        }
+    }
+]
